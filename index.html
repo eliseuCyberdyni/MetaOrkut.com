@@ -12,9 +12,29 @@
  <center><input type="text" name="username" placeholder="Usuário"></center>
 <center><input type="password" name="password" placeholder="Senha"></center>
         <br></br:>
-    <button type="submit">Entrar</button>
+<center><button type="submit">Entrar</button></center>
 </form>
-<a href="/register">Criar uma nova conta</a>
+<center><a href="/register">Criar uma nova conta</a></center>
 
+
+    <section class="perfil">
+    <img src="foto_perfil.jpg" alt="Foto de Perfil">
+    <h1>Nome do Usuário</h1>
+    <p>Status: <em>"Feliz da vida!"</em></p>
+    <p>Cidade: São Paulo</p>
+    <div class="scraps">
+        <h2>Scraps</h2>
+        <ul>
+            <li>Usuário A: "Oi, tudo bem?"</li>
+            <li>Usuário B: "Saudades!"</li>
+        </ul>
+        <form action="/send_scrap" method="POST">
+            <textarea name="scrap" placeholder="Escreva um recado..."></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+    
 </body>
 </html>
